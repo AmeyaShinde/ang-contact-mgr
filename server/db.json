@@ -1,0 +1,40 @@
+{
+    "contacts": [
+        {
+            "id": "D6BNdWnHI",
+            "name": "Brad Gibson",
+            "company": "YouTube",
+            "email": "brad@gmail.com",
+            "title": "YouTuber",
+            "mobile": "9876546787",
+            "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g8R5VmgqDqpRCwQfw2Y9V-DM-iXS59RhQ&usqp=CAU",
+            "groupId": "3"
+        }
+    ],
+    "group": [
+        {
+            "id": "1",
+            "name": "Colleague"
+        },
+        {
+            "id": "2",
+            "name": "Friend"
+        },
+        {
+            "id": "3",
+            "name": "Family"
+        },
+        {
+            "id": "4",
+            "name": "Service"
+        },
+        {
+            "id": "5",
+            "name": "Community"
+        },
+        {
+            "id": "6",
+            "name": "Social"
+        }
+    ]
+}
