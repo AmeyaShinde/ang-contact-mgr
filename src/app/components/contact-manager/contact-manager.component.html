@@ -1,1 +1,59 @@
-<p>contact-manager works!</p>
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 text-danger fw-bold">NG Contacts
+                <a routerLink="/Contacts/add" class="btn btn-danger btn-sm"><i class="fa fa-plus-circle"></i> New</a>
+            </p>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusamus dolores aspernatur ipsam eius, ratione id eveniet exercitationem fugit laudantium voluptates enim numquam debitis! Repellat praesentium odio iusto dicta repudiandae?</p>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Search User">
+                            </div>
+                            <div class="col">
+                                <input type="submit" value="Search" class="btn btn-outline-dark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Cards -->
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card list-group-item-danger shadow-lg">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4">
+                            <img src="https://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="" class="contact-img">
+                        </div>
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">Name : <span class="fw-bold">Name</span></li>
+                                <li class="list-group-item">Email : <span class="fw-bold">Email</span></li>
+                                <li class="list-group-item">Mobile : <span class="fw-bold">Mobile</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
+                            <a routerLink="/contacts/view/:contactId" class="btn btn-warning my-1">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a routerLink="/contacts/edit/:contactId" class="btn btn-primary my-1">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                            <button class="btn btn-danger my-1">
+                                <i class="fa fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
