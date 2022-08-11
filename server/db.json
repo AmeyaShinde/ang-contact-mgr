@@ -13,9 +13,9 @@
         {
             "id": "TVobxeKbI",
             "name": "Glenda Kim",
-            "company": "Friend",
+            "company": "HCL Technologies",
             "email": "glenda@gmail.com",
-            "title": "freelancer",
+            "title": "Freelancer",
             "mobile": "8880009991",
             "photo": "https://www.kindpng.com/picc/m/163-1636340_user-avatar-icon-avatar-transparent-user-icon-png.png",
             "groupId": "2"
@@ -28,7 +28,17 @@
             "title": "Electrician",
             "mobile": "9876546787",
             "photo": "https://png.pngtree.com/png-clipart/20190922/original/pngtree-business-male-user-avatar-vector-png-image_4774078.jpg",
-            "groupId": 4
+            "groupId": "4"
+        },
+        {
+            "id": "kLt-bJF",
+            "name": "Rajan",
+            "company": "HCL Technologies",
+            "email": "rajan@gmail.com",
+            "title": "Software Engineer",
+            "mobile": "9090909090",
+            "photo": "https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/User-icon.png",
+            "groupId": "1"
         }
     ],
     "group": [

@@ -57,7 +57,7 @@ export class ContactService {
 
     // GET Single Group
     public getGroup(contact: IContact): Observable<IGroup> {
-        let dataURL: string = `${this.serverUrl}/groups/${contact.groupId}`;
+        let dataURL: string = `${this.serverUrl}/group/${contact.groupId}`;
 
         return this.httpClient.get<IGroup>(dataURL).pipe(catchError(this.handleError));
     }
